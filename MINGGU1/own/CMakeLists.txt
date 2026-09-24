@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 4.3)
+project(PRAKTIKUM_KONSEP_PEMROGRAMAN C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(run_main main.c)
+add_executable(run_pendahuluan2 pendahuluan2.c)
+add_executable(run_pendahuluan3 pendahuluan3.c)
+add_executable(run_pendahuluan4 pendahuluan4.c)
+add_executable(pendahuluan5 pendahuluan5.c)
+add_executable(pendahuluan_6 pendahuluan6.c)
+add_executable(pendahuluan7 pendahulan7.c)
+add_executable(pendahuluan8 pendahuluan8.c)
+add_executable(laporan2a laporan2a.c)
+add_executable(laporan2b laporan2b.c)
+add_executable(laporan2c laporan2c.c)
