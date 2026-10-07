@@ -10,8 +10,8 @@ int main() {
     printf("Masukkan nilai n: ");
     scanf("%d", &n);
 
-    for (bilangan = 1; bilangan < n; bilangan++) {
-        if (bilangan >= 100) {
+    for (bilangan = 1; ; bilangan++) {
+        if (bilangan >= n || bilangan >= 100) {
             break;
         }
         if (bilangan % 2 == 0) {

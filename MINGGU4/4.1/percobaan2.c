@@ -11,8 +11,8 @@ int main() {
     printf("Masukkan bilangan: ");
     scanf("%d", &bilangan);
 
-    for (; bilangan >= 1; bilangan--) {
-        triangular += bilangan;
+    for (int i = bilangan; i >= 1; i--) {
+        triangular += i;
     }
 
     printf("Bilangan triangular: %d\n", triangular);

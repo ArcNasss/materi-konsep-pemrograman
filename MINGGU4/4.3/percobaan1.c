@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 int main() {
-    int karakter;
+    char karakter;
 
     printf("Ketik karakter dan tekan Enter untuk selesai: ");
     while (1) {

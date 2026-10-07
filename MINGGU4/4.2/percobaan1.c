@@ -7,13 +7,14 @@
 int main() {
     int karakter;
 
-    printf("Ketik karakter (akhiri dengan X): ");
+    printf("Ketik karakter dan tekan X untuk selesai: ");
     karakter = getchar();
-
     while (karakter != 'X') {
-        printf("%c", karakter);
-        karakter = getchar();
+        putchar(karakter);
+        getchar();
+        printf("\nMasukkan karakter berikutnya: ");
     }
+    printf("\nProgram selesai.\n");
 
     return 0;
 }

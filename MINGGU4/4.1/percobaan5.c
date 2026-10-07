@@ -7,7 +7,7 @@
 int main() {
     int n, bilangan, urutan;
 
-    printf("Masukkan banyak bilangan ganjil: ");
+    printf("Masukkan bilangan bulat: ");
     scanf("%d", &n);
 
     for (urutan = 1, bilangan = 1; urutan <= n; urutan++, bilangan += 2) {
